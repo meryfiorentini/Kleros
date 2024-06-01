@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Precedents</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Explore Legal Precedents</h1>
+        <p>Easily find the precedents you need</p>
+    </header>
+    <main>
+        <div class="search-section">
+            <input type="text" id="search-bar" placeholder="Search precedents...">
+            <div class="filters">
+                <select id="filter-topic">
+                    <option value="" disabled selected>Topic</option>
+                    <!-- Add topic options here -->
+                </select>
+                <select id="filter-court">
+                    <option value="" disabled selected>Court</option>
+                    <option value="humanity">Humanity Court</option>
+                    <option value="general">General Court</option>
+                    <option value="blockchain">Blockchain</option>
+                    <option value="marketing">Marketing Services</option>
+                    <option value="english">English Language</option>
+                    <option value="video">Video Production</option>
+                    <option value="onboarding">Onboarding</option>
+                    <option value="curation">Curation</option>
+                    <option value="data">Data Analysis</option>
+                    <option value="spanish">Corte General en Español</option>
+                    <option value="other">Other</option>
+                </select>
+                <input type="date" id="filter-date">
+            </div>
+            <button id="search-button">Search</button>
+        </div>
+    </main>
+</body>
+</html>
